@@ -42,7 +42,7 @@ const solutions = [
 ];
 
 const Index = () => {
-  const whatsappNumber = "5511997991494";
+  const whatsappNumber = "5519997991494";
   const whatsappMessage1 = "Olá! Quero parar de perder dinheiro com leads não respondidos. Gostaria de conhecer as soluções de IA da MNZ FlowLab.";
   const whatsappMessage2 = "Olá! Quero parar de perder leads agora mesmo. Gostaria de agendar uma demonstração das soluções de IA da MNZ FlowLab.";
   
