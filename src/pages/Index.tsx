@@ -130,7 +130,7 @@ const Index = () => {
           <div className="container mx-auto px-6 text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Pare de perder dinheiro hoje!</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-              Cada minuto que passa é dinheiro indo embora. Agende uma demonstração gratuita e veja como seus leads podem virar vendas automaticamente.
+              Agende uma demonstração gratuita para realizarmos um diagnóstico e encontrarmos a solução ideal para o seu negócio.
             </p>
             <Button size="lg" variant="default" className="text-lg px-10 py-7 shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/40 transition-shadow">
               Quero parar de perder leads agora
