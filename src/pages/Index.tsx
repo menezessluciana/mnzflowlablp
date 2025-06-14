@@ -42,6 +42,13 @@ const solutions = [
 ];
 
 const Index = () => {
+  const whatsappNumber = "5511997991494";
+  const whatsappMessage1 = "Olá! Quero parar de perder dinheiro com leads não respondidos. Gostaria de conhecer as soluções de IA da MNZ FlowLab.";
+  const whatsappMessage2 = "Olá! Quero parar de perder leads agora mesmo. Gostaria de agendar uma demonstração das soluções de IA da MNZ FlowLab.";
+  
+  const whatsappUrl1 = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage1)}`;
+  const whatsappUrl2 = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage2)}`;
+
   return (
     <div className="bg-background text-foreground min-h-screen flex flex-col">
       <Header />
@@ -59,8 +66,10 @@ const Index = () => {
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
               A MNZ FlowLab transforma leads perdidos em oportunidades de negócio com agentes de IA que trabalham 24/7 para você.
             </p>
-            <Button size="lg" className="text-lg px-8 py-6">
-              Pare de perder dinheiro →
+            <Button size="lg" className="text-lg px-8 py-6" asChild>
+              <a href={whatsappUrl1} target="_blank" rel="noopener noreferrer">
+                Pare de perder dinheiro →
+              </a>
             </Button>
           </div>
         </section>
@@ -131,8 +140,10 @@ const Index = () => {
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
               Agende uma demonstração gratuita para realizarmos um diagnóstico e encontrarmos a solução ideal para o seu negócio.
             </p>
-            <Button size="lg" variant="default" className="text-lg px-10 py-7 shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/40 transition-shadow">
-              Quero parar de perder leads agora
+            <Button size="lg" variant="default" className="text-lg px-10 py-7 shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/40 transition-shadow" asChild>
+              <a href={whatsappUrl2} target="_blank" rel="noopener noreferrer">
+                Quero parar de perder leads agora
+              </a>
             </Button>
           </div>
         </section>
