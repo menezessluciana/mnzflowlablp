@@ -1,5 +1,5 @@
 
-import { Twitter, Linkedin } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -13,11 +13,8 @@ export default function Footer() {
           <p>Transformando processos, impulsionando o futuro.</p>
         </div>
         <div className="flex space-x-4">
-          <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-            <Twitter size={24} />
-          </a>
-          <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-            <Linkedin size={24} />
+          <a href="https://www.instagram.com/mnzflowlab/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <Instagram size={24} />
           </a>
         </div>
       </div>
