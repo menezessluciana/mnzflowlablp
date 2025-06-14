@@ -55,7 +55,7 @@ const Index = () => {
               <span className="text-secondary">Leads?</span>
             </h1>
             <p className="text-xl md:text-2xl text-secondary font-semibold max-w-4xl mx-auto mb-4">
-              E hoje? Amanhã? Semana que vem? Isso TEM que parar. AGORA
+              O custo da inação aumenta a cada lead não respondido. É hora de agir.
             </p>
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
               A MNZ FlowLab transforma leads perdidos em vendas garantidas com agentes de IA que trabalham 24/7 para você.
