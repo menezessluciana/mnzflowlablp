@@ -26,7 +26,7 @@ const painPoints = [
 const solutions = [
   {
     icon: <Zap className="h-8 w-8 text-primary" />,
-    title: "Resposta INSTANTÂNEA 24/7",
+    title: "Resposta instantânea 24/7",
     description: "Agentes de IA que respondem seus leads em segundos, qualquer hora do dia, garantindo que nenhuma oportunidade seja perdida.",
   },
   {
@@ -36,7 +36,7 @@ const solutions = [
   },
   {
     icon: <Scaling className="h-8 w-8 text-primary" />,
-    title: "Escala INFINITA sem contratar",
+    title: "Escala infinita sem contratar",
     description: "Atenda milhares de leads simultaneamente sem aumentar custos fixos. ROI que se paga em dias, não meses.",
   },
 ];
@@ -58,10 +58,10 @@ const Index = () => {
               O custo da inação aumenta a cada lead não respondido. É hora de agir.
             </p>
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-              A MNZ FlowLab transforma leads perdidos em vendas garantidas com agentes de IA que trabalham 24/7 para você.
+              A MNZ FlowLab transforma leads perdidos em oportunidades de negócio com agentes de IA que trabalham 24/7 para você.
             </p>
             <Button size="lg" className="text-lg px-8 py-6">
-              Pare de Perder Dinheiro →
+              Pare de perder dinheiro →
             </Button>
           </div>
         </section>
@@ -72,7 +72,7 @@ const Index = () => {
             <div className="text-center mb-16">
               <div className="flex items-center justify-center mb-6">
                 <X className="h-8 w-8 text-destructive mr-3" />
-                <h2 className="text-3xl md:text-4xl font-bold text-destructive">Os Problemas que Estão te Custando CARO:</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-destructive">Os problemas que estão te custando caro:</h2>
               </div>
               <p className="text-lg text-muted-foreground mt-4 max-w-2xl mx-auto">Cada um desses problemas representa dinheiro saindo do seu bolso todos os dias.</p>
             </div>
@@ -94,7 +94,7 @@ const Index = () => {
             <div className="text-center mb-16">
               <div className="flex items-center justify-center mb-6">
                 <CheckCircle className="h-8 w-8 text-secondary mr-3" />
-                <h2 className="text-3xl md:text-4xl font-bold text-secondary">Agora Imagine Isso:</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-secondary">Agora imagine isso:</h2>
               </div>
               <p className="text-lg text-muted-foreground mt-4 max-w-2xl mx-auto">Transforme cada lead em oportunidade real com tecnologia que trabalha enquanto você dorme.</p>
             </div>
@@ -115,7 +115,7 @@ const Index = () => {
             <div className="text-center mt-16">
               <div className="bg-secondary/10 border border-secondary rounded-lg p-8 max-w-4xl mx-auto">
                 <h3 className="text-2xl md:text-3xl font-bold text-secondary mb-4">
-                  Cada lead vira OPORTUNIDADE real • Concorrência chorando no travesseiro
+                  Cada lead vira oportunidade real • Concorrência chorando no travesseiro
                 </h3>
                 <p className="text-lg text-muted-foreground">
                   Enquanto seus concorrentes perdem leads, você está fechando vendas 24/7. ROI que se paga em dias, não meses.
@@ -128,12 +128,12 @@ const Index = () => {
         {/* ACTION */}
         <section className="bg-primary/10">
           <div className="container mx-auto px-6 text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Pare de Perder Dinheiro HOJE!</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Pare de perder dinheiro hoje!</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
               Cada minuto que passa é dinheiro indo embora. Agende uma demonstração gratuita e veja como seus leads podem virar vendas automaticamente.
             </p>
             <Button size="lg" variant="default" className="text-lg px-10 py-7 shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/40 transition-shadow">
-              Quero Parar de Perder Leads AGORA
+              Quero parar de perder leads agora
             </Button>
           </div>
         </section>
