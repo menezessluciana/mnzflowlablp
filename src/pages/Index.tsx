@@ -1,3 +1,4 @@
+
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -53,7 +54,7 @@ const Index = () => {
               <span className="text-foreground">Cada minuto perdido é oportunidade perdida</span>
             </h1>
             <p className="text-xl md:text-2xl text-secondary font-semibold max-w-4xl mx-auto mb-4">
-              O custo da inação aumenta a cada lead não respondido. É hora de agir.
+              O custo da demora aumenta a cada lead não respondido. É hora de agir.
             </p>
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
               A MNZ FlowLab transforma leads perdidos em oportunidades de negócio com agentes de IA que trabalham 24/7 para você.
@@ -113,7 +114,7 @@ const Index = () => {
             <div className="text-center mt-16">
               <div className="bg-secondary/10 border border-secondary rounded-lg p-8 max-w-4xl mx-auto">
                 <h3 className="text-2xl md:text-3xl font-bold text-secondary mb-4">
-                  Cada lead vira oportunidade real • Concorrência chorando no travesseiro
+                  Cada lead vira oportunidade real • Máxima eficiência comercial
                 </h3>
                 <p className="text-lg text-muted-foreground">
                   Enquanto seus concorrentes perdem leads, você está fechando vendas 24/7. ROI que se paga em dias, não meses.
