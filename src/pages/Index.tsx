@@ -50,9 +50,9 @@ const Index = () => {
         <section className="relative pt-48 pb-32 text-center" style={{ background: 'radial-gradient(ellipse at bottom, var(--background) 0%, #10101a 100%)' }}>
           <div className="container mx-auto px-6 animate-fade-in-up">
             <h1 className="text-4xl md:text-7xl font-bold tracking-tight mb-6">
-              <span className="text-destructive">Quanto Dinheiro Você Perdeu</span><br />
-              <span className="text-foreground">Ontem por Não Responder</span><br />
-              <span className="text-secondary">Leads?</span>
+              <span className="text-destructive">O tempo de resposta é crucial</span><br />
+              <span className="text-foreground">Cada minuto de atraso é uma oportunidade perdida</span><br />
+              <span className="text-secondary">Sua concorrência responde mais rápido?</span>
             </h1>
             <p className="text-xl md:text-2xl text-secondary font-semibold max-w-4xl mx-auto mb-4">
               O custo da inação aumenta a cada lead não respondido. É hora de agir.
