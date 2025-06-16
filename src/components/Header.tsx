@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Header() {
   const whatsappNumber = "5519997991494";
-  const whatsappMessage = "Olá! Gostaria de agendar uma consulta para conhecer as soluções de IA da MNZ FlowLab.";
+  const whatsappMessage = "Olá! Gostaria de conhecer as soluções de IA da MNZ FlowLab.";
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
