@@ -12,7 +12,7 @@ export default function Header() {
         <img src="/lovable-uploads/126063ad-8aa0-4949-87a7-18d18bc9b53d.png" alt="MNZ FlowLab Logo" className="h-12" />
         <Button asChild>
           <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-            Agendar Consulta
+            Entrar em contato
           </a>
         </Button>
       </div>
